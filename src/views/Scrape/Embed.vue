@@ -102,17 +102,8 @@
                 rounded="lg"
             >
               <v-card-title>
-                Job Results
+                Generated code
                 <v-spacer></v-spacer>
-                <v-btn
-                    @click.prevent="downloadExcel"
-                    rounded
-                    color="success"
-                    dark
-                    :disabled="!excelData.length"
-                >
-                  Download Excel
-                </v-btn>
               </v-card-title>
               <v-card-text style="position: relative">
                 <v-progress-linear
